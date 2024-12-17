@@ -8,4 +8,6 @@ const func2 = (str) => {
     return str;
 }
 
-console.log(func2("テスト"));
+let meigen = "笑いの無い世界に未来はない";
+
+document.getElementById("meigen").innerHTML = meigen;
