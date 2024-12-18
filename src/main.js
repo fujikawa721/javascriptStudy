@@ -1,13 +1,16 @@
-var val1 = 'テスト';
-console.log(val1);
+const contents = [
+    {
+    meigen:'笑いの無い世界に未来はない',
+    source:'僕のヒーローアカデミア',
+    },
+    {
+        meigen:'自分を信じられない奴に努力する資格は無い',
+        source:'NARUTO',
+    }
 
-let val2 = "let変数";
-console.log(val2);
+];
 
-const func2 = (str) => {
-    return str;
-}
 
-let meigen = "笑いの無い世界に未来はない";
 
-document.getElementById("meigen").innerHTML = meigen;
+document.getElementById("meigen").innerHTML = contents[0].meigen;
+document.getElementById("source").innerHTML = contents[0].source;
